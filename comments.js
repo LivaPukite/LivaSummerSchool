@@ -3,7 +3,7 @@
 //console.log('this is a comment');
 
 //its example
- /*function testNumbers(numbers){
+/*function testNumbers(numbers){
     let result;
     if (numbers > 0) {
         result = 'positive';
@@ -13,4 +13,3 @@
     return result;
 }
 console.log(testNumbers(1));*/
-
