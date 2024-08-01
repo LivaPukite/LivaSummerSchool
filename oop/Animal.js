@@ -1,15 +1,15 @@
 class Animal {
-    constructor(kindof, name, age, height, weight){
-        this.kindof = kindof;
-        this.name = name;
-        this.age = age;
-        this.job = height;
-        this.isSleeping = weight;
-    }
+  constructor(kindof, name, age, height, weight) {
+    this.kindof = kindof;
+    this.name = name;
+    this.age = age;
+    this.job = height;
+    this.isSleeping = weight;
+  }
 
-language(){
+  language() {
     console.log(`${this.kindof} says wau, wau `);
-}
+  }
 }
 
 module.exports = Animal;

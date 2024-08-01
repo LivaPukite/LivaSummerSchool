@@ -1,6 +1,5 @@
 let isActive = true;
-const MON = 'Monday';
-
+const MON = "Monday";
 
 let undefinedVariables = undefined;
 console.log(!isActive);

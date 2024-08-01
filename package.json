@@ -4,7 +4,9 @@
   "description": "Summer School 2024 Cypress project",
   "main": "comments.js",
   "scripts": {
-    "format": "npm prettier . --write"
+    "format": "npx prettier . --write",
+    "cypress-open": "npx cypress open",
+    "cypress-run": "npx cypress run"
   },
   "keywords": [
     "Cypress",
@@ -14,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^13.13.1",
+    "mochawesome": "^7.1.3",
     "prettier": "^3.3.3"
   }
 }
