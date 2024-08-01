@@ -4,9 +4,9 @@
 
 ### Used commands in project
 
-This project uses prettier package to format code. Run the following command to format all files: `npm run format`
+This project uses prettier package to format code. 
 
 | Command    | Descriptions                                   |
 | ---------- | ---------------------------------------------- |
-| npm run format | Formats code in all files for project                |
+| npm run format | Formats code in all files for project      |
 | npm run cypress open   | Opens cypress |
