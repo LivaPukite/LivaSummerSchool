@@ -13,7 +13,7 @@ class CheckOut {
     fillPostalCode: (postalCode) => this.fillPostalCode().type(postalCode),
     fillCity: (city) => this.fillCity().type(city),
     deliveryOptionButton: () =>
-      cy.getByTestId("delivery-option-radio").contains("FakeEx Standard"), // can we pass parameter to select other option?
+      cy.getByTestId("delivery-option-radio").contains("FakeEx Standard"), // TODO: try to pass parameter 'option' instead of static text "FakeEx Standard"
     submitDelButton: () => cy.getByTestId("submit-delivery-option-button"),
     submitPayButton: () => cy.getByTestId("submit-payment-button"),
     submitOrderButton: () => cy.getByTestId("submit-order-button"),
