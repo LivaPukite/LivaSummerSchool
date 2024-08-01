@@ -6,6 +6,7 @@ class Product {
     addButton: () => cy.getByTestId("add-product-button"),
     cartButton: () => cy.get('[href="/us/cart"]'),
   };
+
   addProduct() {
     this.elements.shirtButton().click();
     cy.url().should("include", "/products/t-shirt");

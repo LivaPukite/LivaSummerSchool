@@ -1,6 +1,10 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  reporter: "mochawesome",
+  reporterOptions: {
+    overwrite: false,
+  },
   env: {
     username: "maksis.paksis@gmail.com",
     password: "123",

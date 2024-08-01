@@ -4,5 +4,4 @@ class Home {
     productLink: () => cy.getByTestId("product-wrapper"),
   };
 }
-
 export default new Home();
