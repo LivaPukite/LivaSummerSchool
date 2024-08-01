@@ -19,6 +19,7 @@ describe("end-to-end user flow", () => {
   });
 
   //https://tdlschool.atlassian.net/browse/TSS22N-161
+  //That every test would start with empty cart.
   it("cleanup items in cart", () => {
     cy.visit("/cart");
     Cart.emptyCart();
